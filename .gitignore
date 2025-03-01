@@ -3,3 +3,8 @@
 ################################################################################
 
 /.tmp.driveupload
+/DVLD/obj/Debug
+/DVLD/.vs
+/DVLD/bin/Debug
+/DVLD_Data/obj/Debug
+/DVLD_Data/bin/Debug

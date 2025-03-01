@@ -70,6 +70,10 @@ namespace DVLD_Business.People
             return clsPersonData.getPeople(out numberOfRows);
         }
 
+        public static string getPersonImage(int personID) { 
+            return clsPersonData.GetImagePathByPersonId(personID);
+        }
+
         public static bool deletePerson(int personId) {
             return clsPersonData.deletePerson(personId);
         }
